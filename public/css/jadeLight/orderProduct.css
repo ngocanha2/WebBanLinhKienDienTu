@@ -1,0 +1,9 @@
+.width-130{
+    width: 130px ;
+    
+}
+.group-btn-handel{
+    display: flex;
+    justify-content: end;
+    color: brown;
+}

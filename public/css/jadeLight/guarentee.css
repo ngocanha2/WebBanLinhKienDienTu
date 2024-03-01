@@ -1,0 +1,46 @@
+.status-group{
+    display: flex;
+    flex-direction: row; 
+}
+
+.title-status{
+    padding: 20px;
+    font-size: large;
+}
+
+.title-status:hover{
+    font-weight: 500;
+    background-color: rgba(228, 221, 221, 0.229);
+    font-weight: 600;
+    border-bottom: 5px solid rgba(0, 128, 0, 0.375);
+}
+
+.active{
+    font-weight: 500;
+    background-color: rgba(228, 221, 221, 0.501);
+    font-weight: 600;
+    border-bottom: 5px solid green;
+}
+.bg-yellow{
+    background-color:  #ffc1073d ;
+}
+.bg-blue{
+    background-color:  #0dcaf068  ;
+}
+.bg-green{
+    background-color:  #19875448 ;
+}
+.bg-gray{
+    background-color: #CCC;
+}
+
+.content-status{
+    padding: 7px 10px;
+    border-radius: 15px ;
+    width: 150px;
+    text-align: center;
+}
+.btnUpdate{
+    font-size: 10px !important;
+    min-width: 70px !important;
+}
